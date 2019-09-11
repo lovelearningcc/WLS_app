@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+     >
+
+        <com.wls.jzgy.widget.CircleProgress
+            android:id="@+id/circleProgress"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_centerInParent="true"
+            android:padding="30dp"
+            custom:currProgress="0"
+            custom:foreEndColor="#E95A74"
+            custom:foreStartColor="#BA5AD2"
+            custom:maxProgress="360"
+            custom:progressInitialPosition="270"
+            custom:progressWidth="2dp"
+            custom:useAnimation="true" />
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="25dp"
+            android:gravity="center"
+            android:text="设备未连接"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_percent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp"
+            android:gravity="center"
+            android:text="设备ID"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+
+            />
+    </RelativeLayout>
+</RelativeLayout>

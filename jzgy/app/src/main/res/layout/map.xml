@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/biaoti"
+        layout="@layout/theme_title" />
+
+    <com.amap.api.maps.MapView
+        android:id="@+id/map"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/biaoti" />
+
+    <LinearLayout
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/biaoti"
+        android:background="#dd999999"
+        android:orientation="vertical"
+        android:padding="6.0dip">
+
+
+        <RadioGroup
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/biaoti"
+            android:orientation="vertical">
+
+            <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <RadioButton
+                android:id="@+id/check_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  设备总数"
+                android:textColor="@color/maincolor02" />
+
+            <!--<TextView-->
+            <!--android:id="@+id/tv_count0"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:gravity="center"-->
+            <!--android:paddingLeft="90dp" />-->
+            <!--</RelativeLayout>-->
+
+            <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <RadioButton
+                android:id="@+id/check_online"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="  在线设备"
+                android:textColor="@color/maincolor02" />
+
+            <!--<TextView-->
+            <!--android:id="@+id/tv_count1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:gravity="center"-->
+            <!--android:paddingLeft="90dp" />-->
+            <!--</RelativeLayout>-->
+
+            <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <RadioButton
+                android:id="@+id/check_offline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  离线设备"
+                android:textColor="@color/maincolor02" />
+
+            <!--<TextView-->
+            <!--android:id="@+id/tv_count2"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:gravity="center"-->
+            <!--android:paddingLeft="90dp" />-->
+            <!--</RelativeLayout>-->
+
+            <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <!--<RadioButton-->
+                <!--android:id="@+id/check_alarm"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="  报警设备"-->
+                <!--android:textColor="@color/maincolor02" />-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/tv_count3"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:gravity="center"-->
+            <!--android:paddingLeft="90dp" />-->
+            <!--</RelativeLayout>-->
+        </RadioGroup>
+    </LinearLayout>
+</RelativeLayout>

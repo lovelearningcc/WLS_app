@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <array name="url">
+        <item>http://39.105.78.205/picture/fj1.jpg</item>
+        <item>http://39.105.78.205/picture/fj2.jpg</item>
+        <item>http://39.105.78.205/picture/fj3.jpg</item>
+        <item>http://39.105.78.205/picture/fj4.jpg</item>
+        <item>http://39.105.78.205/picture/fj5.jpg</item>
+        <item>http://39.105.78.205/picture/fj6.jpg</item>
+        <item>http://39.105.78.205/picture/fj7.jpg</item>
+
+    </array>
+
+</resources>

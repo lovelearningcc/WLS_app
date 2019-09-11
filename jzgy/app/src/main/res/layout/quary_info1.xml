@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+    <include layout="@layout/theme_title1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:id="@+id/selectDate1"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_weight="2.0"
+            android:background="@color/color2"
+            android:gravity="center_horizontal"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="0.6"
+                android:background="@null"
+                android:text="@string/start_date"
+                android:textColor="@color/color4"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/startDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="1.4"
+                android:drawableLeft="@drawable/cal2"
+                android:textColor="@color/color5"
+                android:textSize="15sp"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="fill_parent"
+            android:background="@color/view_color_c"/>
+
+        <LinearLayout
+            android:id="@+id/selectDate2"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_weight="2.0"
+            android:background="@color/color2"
+            android:gravity="center_horizontal"
+            >
+
+            <TextView
+                android:id="@+id/endDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="1.4"
+                android:drawableRight="@drawable/cal2"
+                android:textColor="@color/color5"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="0.6"
+                android:text="@string/end_date"
+                android:textColor="@color/color4"
+                android:textSize="15sp"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/view_color_c"
+        android:alpha="0.3"
+        android:layout_alignParentBottom="true"
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <!-- 顶部导航栏 -->
+        <LinearLayout
+            android:id="@+id/lin_top"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="工作模式"
+                android:textColor="@color/text_color_6"
+                android:onClick="onClick"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/tv_week"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="运行状态"
+                android:textColor="@color/text_color_6"
+                android:onClick="onClick"
+                android:textSize="14sp"
+                android:clickable="true"
+                />
+
+            <TextView
+                android:id="@+id/tv_month"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="报警状态"
+                android:textColor="@color/text_color_6"
+                android:onClick="onClick"
+                android:textSize="14sp" />
+
+            <!--zy_and-->
+            <TextView
+                android:id="@+id/tv_lastweek"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="设备操作"
+                android:textColor="@color/text_color_6"
+                android:onClick="onClick"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_intervenetime"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="实时数据"
+                android:textColor="@color/text_color_6"
+                android:onClick="onClick"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_rundetail"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="全部数据"
+                android:textColor="@color/text_color_6"
+                android:onClick="onClick"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+        <!--<View-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="0.5dip"-->
+            <!--android:background="@color/view_color_c"/>-->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/view_color_c"
+            android:alpha="0.3"
+            android:layout_below="@+id/lin_top"
+            />
+        <!-- Tab底部下划线 -->
+        <ImageView
+            android:id="@+id/iv_tab_bottom_img"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:scaleType="matrix"
+            android:src="@color/colorAccent"
+            android:layout_below="@+id/lin_top"
+            />
+        <!-- 内容页 -->
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vPager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_below="@+id/iv_tab_bottom_img"
+            android:layout_marginTop="10dp"
+            />
+
+        <ProgressBar
+            android:id="@+id/pb_load"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:visibility="invisible"/>
+    </RelativeLayout>
+</LinearLayout>

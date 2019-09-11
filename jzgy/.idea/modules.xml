@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jzgy.iml" filepath="$PROJECT_DIR$/jzgy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/settingitemlibrary/settingitemlibrary.iml" filepath="$PROJECT_DIR$/settingitemlibrary/settingitemlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/waveviewlibrary/waveviewlibrary.iml" filepath="$PROJECT_DIR$/waveviewlibrary/waveviewlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xrecyclerview/xrecyclerview.iml" filepath="$PROJECT_DIR$/xrecyclerview/xrecyclerview.iml" />
+    </modules>
+  </component>
+</project>

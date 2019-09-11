@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_menu_bottom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#F3F3F3"
+    android:layout_alignParentBottom="true"
+    android:layout_gravity="center_vertical"
+    >
+
+    <TextView
+        android:id="@+id/tv_menu_bottom_function"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:drawablePadding="@dimen/bottom_img_padding"
+        android:drawableTop="@drawable/menu_function_style"
+        android:gravity="center"
+        android:padding="@dimen/bottom_img_padding"
+        android:text="功能列表"
+        android:textColor="@drawable/color_txt_bottom_style"
+        android:textSize="@dimen/bottom_text_size"/>
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_menu_bottom_consumable"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="1.0"-->
+        <!--android:drawablePadding="@dimen/bottom_img_padding"-->
+        <!--android:drawableTop="@drawable/menu_consumable_style"-->
+        <!--android:gravity="center"-->
+        <!--android:padding="@dimen/bottom_img_padding"-->
+        <!--android:text="耗材"-->
+        <!--android:textColor="@drawable/color_txt_bottom_style"-->
+        <!--android:textSize="@dimen/bottom_text_size"/>-->
+
+    <TextView
+        android:id="@+id/tv_menu_bottom_home"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:drawablePadding="@dimen/bottom_img_padding"
+        android:drawableTop="@drawable/menu_home_style"
+        android:gravity="center"
+        android:padding="@dimen/bottom_img_padding"
+        android:text="首页"
+        android:textColor="@drawable/color_txt_bottom_style"
+        android:textSize="@dimen/bottom_text_size"/>
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_menu_bottom_stiming"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="1.0"-->
+        <!--android:drawablePadding="@dimen/bottom_img_padding"-->
+        <!--android:drawableTop="@drawable/menu_start_style"-->
+        <!--android:gravity="center"-->
+        <!--android:padding="@dimen/bottom_img_padding"-->
+        <!--android:text="定时制水"-->
+        <!--android:textColor="@drawable/color_txt_bottom_style"-->
+        <!--android:textSize="@dimen/bottom_text_size"/>-->
+
+    <TextView
+        android:id="@+id/tv_menu_bottom_me"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:drawablePadding="@dimen/bottom_img_padding"
+        android:drawableTop="@drawable/menu_me_style"
+        android:gravity="center"
+        android:padding="@dimen/bottom_img_padding"
+        android:text="个人中心"
+        android:textColor="@drawable/color_txt_bottom_style"
+        android:textSize="@dimen/bottom_text_size"/>
+</LinearLayout>

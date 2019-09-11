@@ -1,0 +1,1655 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <include layout="@layout/theme_title4" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <!--gcc_add_11111111111111111111111111111111111111111111111111111111111111111111111111111-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_weight="8"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="设备系统时间"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14dp" />
+
+                        <Button
+                            android:id="@+id/btn_xg_devtime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="36dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/btn_bg_round_click"
+                            android:text="时间设置" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/et_timen"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:background="@null"
+                            android:digits="0133456789"
+                            android:text=" 2019 "
+                            android:textColor="@color/black"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="年"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/et_timey"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:background="@null"
+                            android:digits="0133456789"
+                            android:text=" 8 "
+                            android:textColor="@color/black"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="月"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/et_timed"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:background="@null"
+                            android:digits="0133456789"
+                            android:text=" 6 "
+                            android:textColor="@color/black"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="日"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/et_times"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:background="@null"
+                            android:digits="0133456789"
+                            android:text=" 16 "
+                            android:textColor="@color/black"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="时"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/et_timef"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:background="@null"
+                            android:digits="0133456789"
+                            android:text=" 24 "
+                            android:textColor="@color/black"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="分"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/et_timem"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:background="@null"
+                            android:digits="0133456789"
+                            android:text=" 30 "
+                            android:textColor="@color/black"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="秒"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14dp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/view_color_c" />
+
+                <LinearLayout
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tv_my_type"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="17dp"
+                            android:gravity="center"
+                            android:text="威力生水机"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tv_my_eid"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:gravity="center"
+                            android:text="66666666"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <!--gcc_end1111111111111111111111111111111111111111111111111111111111111111111111111111111111 -->
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_color_c" />
+
+            <!--gcc_add_333333333333333333333333333333333333333333333333333333333333333333333-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_weight="8"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="报警状态"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+
+                        <Button
+                            android:id="@+id/btn_bjzt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:layout_marginLeft="6dp"
+                            android:background="@drawable/btn_bg_round_click" />
+
+                        <Spinner
+                            android:id="@+id/spinner"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:gravity="center" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/view_color_c" />
+
+                <LinearLayout
+                    android:layout_width="169dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="运行时长/h"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tv_time1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="1.33"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/view_color_c" />
+
+            </LinearLayout>
+            <!--gcc_end_333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333-->
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_color_c" />
+
+            <!--gcc_add_99999999999999999999999999999999999999999-->
+            <!--//gcc_add_333333333333333333333333333333333333333333333333333333333-->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:text="参数设置"
+                    android:textColor="@color/text_color_6"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_color_c" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="2.5"
+                            android:gravity="center"
+                            android:text="干粉桶类型"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+
+                            android:background="@color/view_color_c" />
+
+
+                        <EditText
+                            android:id="@+id/et_lx"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3"
+                            android:background="@null"
+                            android:digits="0133456789"
+                            android:gravity="center"
+                            android:imeOptions="actionGo"
+                            android:inputType="number"
+                            android:singleLine="true"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="16dp" />
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="15dp"
+                            android:background="@color/view_color_c" />
+
+                        <Button
+                            android:id="@+id/btn_gftlx"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.5"
+                            android:background="@drawable/btn_bg_round_click"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:text="A"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="2.5"
+                            android:gravity="center"
+                            android:text="每人份粉重(g)"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+
+                            android:background="@color/view_color_c" />
+
+                        <EditText
+                            android:id="@+id/et_fz"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3"
+                            android:background="@null"
+                            android:digits="0133456789"
+                            android:gravity="center"
+                            android:imeOptions="actionGo"
+                            android:inputType="number"
+                            android:singleLine="true"
+                            android:text="1173"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="16dp" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="15dp"
+                            android:background="@color/view_color_c" />
+
+                        <Button
+                            android:id="@+id/btn_fz"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.5"
+                            android:background="@drawable/btn_bg_round_click"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:text="保存"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="2.5"
+                            android:gravity="center"
+                            android:text="每人份容量(L)"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+
+                            android:background="@color/view_color_c" />
+
+                        <EditText
+                            android:id="@+id/et_rl"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3"
+                            android:background="@null"
+                            android:digits="0133456789"
+                            android:gravity="center"
+                            android:imeOptions="actionSend"
+                            android:inputType="number"
+                            android:singleLine="true"
+                            android:text="5"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="16dp" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="15dp"
+                            android:background="@color/view_color_c" />
+
+                        <Button
+                            android:id="@+id/btn_rl"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.5"
+                            android:background="@drawable/btn_bg_round_click"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:text="保存"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="2.5"
+                            android:gravity="center"
+                            android:text="当前配多少人份"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+
+                            android:background="@color/view_color_c" />
+                        <EditText
+                            android:id="@+id/et_rf"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3"
+                            android:background="@null"
+                            android:digits="0133456789"
+                            android:gravity="center"
+                            android:imeOptions="normal"
+                            android:inputType="number"
+                            android:singleLine="true"
+                            android:text="10"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="16dp" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="15dp"
+                            android:background="@color/view_color_c" />
+
+                        <Button
+                            android:id="@+id/btn_rf"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.5"
+                            android:background="@drawable/btn_bg_round_click"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:text="保存"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_color_c" />
+            <!--//gcc_end_333333333333333333333333333333333333333333333333333333333-->
+
+            <!--//gcc_add_4444444444444444444444444444444444444444444444444444444-->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:text="实时数据显示"
+                    android:textColor="@color/text_color_6"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_color_c" />
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!--<LinearLayout-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="40dp"-->
+                <!--android:layout_weight="3"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<TextView-->
+                <!--android:layout_width="60dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="40dp"-->
+                <!--android:layout_marginTop="40dp"-->
+                <!--android:gravity="center"-->
+                <!--android:text="参数设置-->
+                <!--时间单位(min)-->
+                <!--容量单位(L)"-->
+                <!--android:textColor="@color/text_color_6"-->
+                <!--android:textSize="14sp"-->
+                <!--tools:ignore="HardcodedText" />-->
+                <!--</LinearLayout>-->
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/view_color_c" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:text="搅拌时间"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/view_color_c" />
+
+                        <EditText
+                            android:id="@+id/et_jbsj"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3"
+                            android:background="@null"
+                            android:digits="0133456789"
+                            android:gravity="center"
+                            android:imeOptions="actionNone"
+                            android:inputType="number"
+                            android:singleLine="true"
+                            android:text="30"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="16dp" />
+
+                        <!--<Button-->
+                        <!--android:id="@+id/btn_jbsj"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="40dp"-->
+                        <!--android:layout_gravity="center"-->
+                        <!--android:layout_weight="3"-->
+                        <!--android:background="@drawable/btn_bg_round_click"-->
+                        <!--android:clickable="true"-->
+                        <!--android:onClick="onClick"-->
+                        <!--android:text="保存"-->
+                        <!--android:textColor="@color/black" />-->
+
+                        <!--<TextView-->
+                            <!--android:layout_width="0dp"-->
+                            <!--android:layout_height="36dp"-->
+                            <!--android:layout_weight="0.5"-->
+                            <!--android:gravity="center" />-->
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:text="进水量"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/view_color_c" />
+
+                        <EditText
+                            android:id="@+id/et_jsl"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3"
+                            android:background="@null"
+                            android:digits="0133456789"
+                            android:gravity="center"
+                            android:imeOptions="actionGo"
+                            android:inputType="number"
+                            android:singleLine="true"
+                            android:text="30"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="16dp" />
+
+                        <!--<Button-->
+                        <!--android:id="@+id/btn_jsl"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="40dp"-->
+                        <!--android:layout_gravity="center"-->
+                        <!--android:layout_weight="3"-->
+                        <!--android:background="@drawable/btn_bg_round_click"-->
+                        <!--android:clickable="true"-->
+                        <!--android:onClick="onClick"-->
+                        <!--android:text="保存"-->
+                        <!--android:textColor="@color/black" />-->
+
+                        <!--<TextView-->
+                            <!--android:layout_width="0dp"-->
+                            <!--android:layout_height="36dp"-->
+                            <!--android:layout_weight="0.5"-->
+                            <!--android:gravity="center" />-->
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:text="液体容量"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/view_color_c" />
+
+                        <EditText
+                            android:id="@+id/et_ytrl"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3"
+                            android:background="@null"
+                            android:digits="0133456789"
+                            android:gravity="center"
+                            android:imeOptions="actionSend"
+                            android:inputType="number"
+                            android:singleLine="true"
+                            android:text="30"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="16dp" />
+
+                        <!--<Button-->
+                        <!--android:id="@+id/btn_ytrl"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="40dp"-->
+                        <!--android:layout_gravity="center"-->
+                        <!--android:layout_weight="3"-->
+                        <!--android:background="@drawable/btn_bg_round_click"-->
+                        <!--android:clickable="true"-->
+                        <!--android:onClick="onClick"-->
+                        <!--android:text="保存"-->
+                        <!--android:textColor="@color/black" />-->
+
+                        <!--<TextView-->
+                            <!--android:layout_width="0dp"-->
+                            <!--android:layout_height="36dp"-->
+                            <!--android:layout_weight="0.5"-->
+                            <!--android:gravity="center" />-->
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:text="电导率"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/view_color_c" />
+
+                        <EditText
+                            android:id="@+id/et_ddl"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3"
+                            android:background="@null"
+                            android:digits="0133456789"
+                            android:gravity="center"
+                            android:imeOptions="normal"
+                            android:inputType="number"
+                            android:singleLine="true"
+                            android:text="30"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="16dp" />
+
+                        <!--<Button-->
+                        <!--android:id="@+id/btn_ddl"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="40dp"-->
+                        <!--android:layout_gravity="center"-->
+                        <!--android:layout_weight="3"-->
+                        <!--android:background="@drawable/btn_bg_round_click"-->
+                        <!--android:clickable="true"-->
+                        <!--android:onClick="onClick"-->
+                        <!--android:text="保存"-->
+                        <!--android:textColor="@color/black" />-->
+
+                        <!--<TextView-->
+                            <!--android:layout_width="0dp"-->
+                            <!--android:layout_height="36dp"-->
+                            <!--android:layout_weight="0.5"-->
+                            <!--android:gravity="center" />-->
+                    </LinearLayout>
+
+                    <!--<View-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="0.5dip"-->
+                    <!--android:background="@color/view_color_c" />-->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:text="管道压力"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/view_color_c" />
+
+                        <EditText
+                            android:id="@+id/et_gdyl"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3"
+                            android:background="@null"
+                            android:digits="0133456789"
+                            android:gravity="center"
+                            android:imeOptions="actionDone"
+                            android:inputType="number"
+                            android:singleLine="true"
+                            android:text="30"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="16dp" />
+
+                        <!--<Button-->
+                        <!--android:id="@+id/btn_gdyl"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="40dp"-->
+                        <!--android:layout_gravity="center"-->
+                        <!--android:layout_weight="3"-->
+                        <!--android:background="@drawable/btn_bg_round_click"-->
+                        <!--android:clickable="true"-->
+                        <!--android:onClick="onClick"-->
+                        <!--android:text="保存"-->
+                        <!--android:textColor="@color/black" />-->
+
+                        <!--<TextView-->
+                            <!--android:layout_width="0dp"-->
+                            <!--android:layout_height="36dp"-->
+                            <!--android:layout_weight="0.5"-->
+                            <!--android:gravity="center" />-->
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:text="消毒时间"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/view_color_c" />
+
+                        <EditText
+                            android:id="@+id/et_xdsj"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3"
+                            android:background="@null"
+                            android:digits="0133456789"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:singleLine="true"
+                            android:text="30"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="16dp" />
+
+                        <!--<TextView-->
+                            <!--android:layout_width="0dp"-->
+                            <!--android:layout_height="36dp"-->
+                            <!--android:layout_weight="0.5"-->
+                            <!--android:gravity="center" />-->
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <!--//gcc_end_444444444444444444444444444444444444-->
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_color_c" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:text="远程控制"
+                    android:textColor="@color/text_color_6"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_color_c" />
+
+            <!--//gcc_add_55555555555555555555555555555555555555555555555555555555555555-->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="510dp"
+                    android:background="@color/view_color_c" />
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7.5"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="3.5"
+                            android:gravity="center"
+                            android:text="配        液"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/view_color_c" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_weight="1.1"
+                            android:gravity="center" />
+
+                        <Button
+                            android:id="@+id/btn_py"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.5"
+                            android:background="@drawable/btn_bg_round_click"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:text="停止"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_weight="0.9"
+                            android:gravity="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3.5"
+                            android:gravity="center"
+                            android:text="搅        拌"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/view_color_c" />
+
+                        <!--<TextView-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="36dp"-->
+                        <!--android:layout_weight="3"-->
+                        <!--android:gravity="center" />-->
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_weight="1.1"
+                            android:gravity="center" />
+
+                        <Button
+                            android:id="@+id/btn_jb"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.5"
+                            android:background="@drawable/btn_bg_round_click"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:text="停止"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_weight="0.9"
+                            android:gravity="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3.5"
+                            android:gravity="center"
+                            android:text="灌        注"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/view_color_c" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_weight="1.1"
+                            android:gravity="center" />
+
+                        <!--<TextView-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="36dp"-->
+                        <!--android:layout_weight="3"-->
+                        <!--android:gravity="center" />-->
+
+                        <Button
+                            android:id="@+id/btn_gz"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.5"
+                            android:background="@drawable/btn_bg_round_click"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:text="停止"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_weight="0.9"
+                            android:gravity="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3.5"
+                            android:gravity="center"
+                            android:text="排空搅拌桶"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/view_color_c" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_weight="1.1"
+                            android:gravity="center" />
+
+                        <!--<TextView-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="36dp"-->
+                        <!--android:layout_weight="3"-->
+                        <!--android:gravity="center" />-->
+
+                        <Button
+                            android:id="@+id/btn_pkjbt"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.5"
+                            android:background="@drawable/btn_bg_round_click"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:text="停止"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_weight="0.9"
+                            android:gravity="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3.5"
+                            android:gravity="center"
+                            android:text="消        音"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/view_color_c" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_weight="1.1"
+                            android:gravity="center" />
+
+                        <!--<TextView-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="36dp"-->
+                        <!--android:layout_weight="3"-->
+                        <!--android:gravity="center" />-->
+
+                        <Button
+                            android:id="@+id/btn_xy"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.5"
+                            android:background="@drawable/btn_bg_round_click"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:text="停止"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_weight="0.9"
+                            android:gravity="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3.5"
+                            android:gravity="center"
+                            android:text="回        灌"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/view_color_c" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_weight="1.1"
+                            android:gravity="center" />
+
+                        <!--<TextView-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="36dp"-->
+                        <!--android:layout_weight="3"-->
+                        <!--android:gravity="center" />-->
+
+                        <Button
+                            android:id="@+id/btn_hg"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.5"
+                            android:background="@drawable/btn_bg_round_click"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:text="停止"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_weight="0.9"
+                            android:gravity="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3.5"
+                            android:gravity="center"
+                            android:text="供液泵状态"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/view_color_c" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_weight="1.1"
+                            android:gravity="center" />
+                        <!--<TextView-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="36dp"-->
+                        <!--android:layout_weight="3"-->
+                        <!--android:gravity="center" />-->
+
+                        <Button
+                            android:id="@+id/btn_gybzt"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.5"
+                            android:background="@drawable/btn_bg_round_click"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:text="停止"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_weight="0.9"
+                            android:gravity="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3.5"
+                            android:gravity="center"
+                            android:text="排        空"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/view_color_c" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_weight="1.1"
+                            android:gravity="center" />
+                        <!--<TextView-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="36dp"-->
+                        <!--android:layout_weight="3"-->
+                        <!--android:gravity="center" />-->
+
+                        <Button
+                            android:id="@+id/btn_pk"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.5"
+                            android:background="@drawable/btn_bg_round_click"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:text="停止"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_weight="0.9"
+                            android:gravity="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3.5"
+                            android:gravity="center"
+                            android:text="清        洗"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/view_color_c" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_weight="1.1"
+                            android:gravity="center" />
+
+                        <!--<TextView-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="36dp"-->
+                        <!--android:layout_weight="3"-->
+                        <!--android:gravity="center" />-->
+
+                        <Button
+                            android:id="@+id/btn_qx"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.5"
+                            android:background="@drawable/btn_bg_round_click"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:text="停止"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_weight="0.9"
+                            android:gravity="center" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3.5"
+                            android:gravity="center"
+                            android:text="消        毒"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/view_color_c" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_weight="1.1"
+                            android:gravity="center" />
+                        <!--<TextView-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="36dp"-->
+                        <!--android:layout_weight="3"-->
+                        <!--android:gravity="center" />-->
+
+                        <Button
+                            android:id="@+id/btn_xd"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.5"
+                            android:background="@drawable/btn_bg_round_click"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:text="停止"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_weight="0.9"
+                            android:gravity="center" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3.5"
+                            android:gravity="center"
+                            android:text="清洗搅拌桶"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/view_color_c" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_weight="1.1"
+                            android:gravity="center" />
+
+                        <!--<TextView-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="36dp"-->
+                        <!--android:layout_weight="3"-->
+                        <!--android:gravity="center" />-->
+
+                        <Button
+                            android:id="@+id/btn_qxjbt"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.5"
+                            android:background="@drawable/btn_bg_round_click"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:text="停止"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_weight="0.9"
+                            android:gravity="center" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3.5"
+                            android:gravity="center"
+                            android:text="排空储液桶"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/view_color_c" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_weight="1.1"
+                            android:gravity="center" />
+
+                        <!--<TextView-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="36dp"-->
+                        <!--android:layout_weight="3"-->
+                        <!--android:gravity="center" />-->
+
+                        <Button
+                            android:id="@+id/btn_pkcyt"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.5"
+                            android:background="@drawable/btn_bg_round_click"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:text="停止"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_weight="0.9"
+                            android:gravity="center" />
+                    </LinearLayout>
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/view_color_c" />
+
+                </LinearLayout>
+            </LinearLayout>
+            <!--gcc_end_555555555555555555555555555555555555555555555555555555555-->
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_color_c" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/layout_theme"
+        layout="@layout/theme_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_xg_devtime1"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/btn_bg_round_click"
+                android:text="更新" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_timen1"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit_bg"
+                android:digits="0123456789"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text=" 2019 "
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text=" 年 "
+                android:textColor="@color/text_color_6"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/et_timey1"
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit_bg"
+                android:digits="0123456789"
+                android:text=" 11 "
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text=" 月 "
+                android:textColor="@color/text_color_6"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/et_timed1"
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit_bg"
+                android:digits="0123456789"
+                android:gravity="center"
+                android:text=" 27 "
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text=" 日 "
+                android:textColor="@color/text_color_6"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/et_times1"
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit_bg"
+                android:digits="0123456789"
+                android:text=" 10 "
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text=" 时 "
+                android:textColor="@color/text_color_6"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/et_timef1"
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit_bg"
+                android:digits="0123456789"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text=" 20 "
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text=" 分 "
+                android:textColor="@color/text_color_6"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/et_timem1"
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit_bg"
+                android:digits="0123456789"
+                android:gravity="center"
+                android:text=" 20 "
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:singleLine="true"
+                android:text=" 秒 "
+                android:textColor="@color/text_color_6"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
