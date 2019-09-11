@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+   >
+
+    <RelativeLayout
+        android:id="@+id/rl_tz"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:clickable="true"
+        android:background="@color/cx"
+        android:onClick="onClick">
+
+        <!--android:focusableInTouchMode="true"-->
+        <com.wls.dmr.widget.CircleProgressText
+            android:id="@+id/progress"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="20dp"
+            custom:bgColor="@color/gcc1" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/progress">
+
+
+            <TextView
+                android:id="@+id/tv_eid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="222222"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_eid"
+                android:gravity="center"
+                android:text="111111"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/tv_num"
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/btn_bg_round_click4"
+            android:gravity="center"
+            android:text="66"
+            android:textColor="@color/cx" />
+
+    </RelativeLayout>
+</RelativeLayout>

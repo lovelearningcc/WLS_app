@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lLayout_bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rectangle_green"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="50dp"
+        android:text="系统时间设置"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:textSize="17sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:focusable="true"
+        android:gravity="center"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_timen"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@null"
+            android:digits="0123456789"
+            android:text=" 2019 "
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="年"
+            android:textColor="@color/text_color_6"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/et_timey"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@null"
+            android:digits="0123456789"
+            android:text=" 4 "
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="月"
+            android:textColor="@color/text_color_6"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/et_timed"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@null"
+            android:digits="0123456789"
+            android:text=" 27 "
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="日"
+            android:textColor="@color/text_color_6"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/et_times"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@null"
+            android:digits="0123456789"
+            android:text=" 10 "
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="时"
+            android:textColor="@color/text_color_6"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/et_timef"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@null"
+            android:digits="0123456789"
+            android:text=" 20 "
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="分"
+            android:textColor="@color/text_color_6"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/et_timem"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@null"
+            android:digits="0123456789"
+            android:text=" 20 "
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="秒"
+            android:textColor="@color/text_color_6"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="25dp"
+        >
+
+        <Button
+            android:id="@+id/btn_neg"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="20dp"
+            android:textSize="14sp" />
+
+
+        <Button
+            android:id="@+id/btn_pos"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector"
+            android:gravity="center"
+            android:text="确定"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="60dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

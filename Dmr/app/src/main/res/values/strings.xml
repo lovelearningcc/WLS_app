@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">威力生医疗设备</string>
+
+    <!-- xlistview -->
+    <!--home fragment-->
+    <!--create visit activity-->
+    <!--activity train detil-->
+
+    <!--toast语句-->
+
+    <!--activity AppFeedbackActivity-->
+
+    <!--activity InterviewDetailActivity-->
+
+    <!--activity MeDataActivity-->
+
+    <!--activity TaskActivity-->
+    <!--activity TaskDetailActivity-->
+    <!--fragment MeFragment-->
+    <!--popwindow updateAPP-->
+
+    <!-- activity LoginActivity2 -->
+    <!-- activity AboutActivity -->
+    <!-- dialog exit-->
+
+
+    <string name="cancle">取消</string>
+    <string name="title">请选择时间</string>
+    <string name="commit">确定</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="hour">时</string>
+    <string name="minute">分</string>
+
+    <!--<string name="app_name">日期选择控件</string>-->
+    <string name="start_date">开始</string>
+    <string name="end_date">结束</string>
+</resources>

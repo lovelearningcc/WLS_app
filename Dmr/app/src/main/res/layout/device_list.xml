@@ -1,0 +1,1700 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/theme_title4" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <!--gcc_11111111111111111111111111111111111111111111111111111111111111111111111111111-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_weight="8"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="设备系统时间"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14dp" />
+
+                        <Button
+                            android:id="@+id/btn_xg_devtime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="36dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/btn_bg_round_click"
+                            android:text="时间设置" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/et_timen"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="8dp"
+                            android:background="@null"
+                            android:digits="0123456789"
+                            android:text=" 2019 "
+                            android:textColor="@color/black"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="年"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/et_timey"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:background="@null"
+                            android:digits="0123456789"
+                            android:text=" 4 "
+                            android:textColor="@color/black"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="月"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/et_timed"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:background="@null"
+                            android:digits="0123456789"
+                            android:text=" 27 "
+                            android:textColor="@color/black"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="日"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/et_times"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:background="@null"
+                            android:digits="0123456789"
+                            android:text=" 10 "
+                            android:textColor="@color/black"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="时"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/et_timef"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:background="@null"
+                            android:digits="0123456789"
+                            android:text=" 20 "
+                            android:textColor="@color/black"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="分"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/et_timem"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:background="@null"
+                            android:digits="0123456789"
+                            android:text=" 20 "
+                            android:textColor="@color/black"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="秒"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14dp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/view_color_c" />
+
+                <LinearLayout
+                    android:layout_width="193dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tv_my_type"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:text="威力生水机"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tv_my_eid"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:text="66666666"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <!--gcc_1111111111111111111111111111111111111111111111111111111111111111111111111111111111 -->
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_color_c" />
+
+            <!--gcc_222222222222222222222222222222222222222222222222222222222222222222222-->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_weight="8"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="报警状态"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+
+                        <Button
+                            android:id="@+id/btn_bjzt"
+                            android:layout_width="68dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="6dp"
+                            android:background="@drawable/btn_bg_round_click" />
+
+                        <Spinner
+                            android:id="@+id/spinner"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@null" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/view_color_c" />
+
+                <LinearLayout
+                    android:layout_width="130dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3"
+                            android:text="运行时长/h"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tv_time1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="3"
+                            android:text="1.23"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/view_color_c" />
+
+            </LinearLayout>
+            <!--gcc_222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222-->
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_color_c" />
+
+            <!--//gcc_3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333-->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="130dp"
+                    android:layout_weight="4"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="设备运行状态"
+                        android:textColor="@color/text_color_6"
+                        android:textSize="14sp"
+                        tools:ignore="HardcodedText" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="显示及控制"
+                        android:textColor="@color/text_color_6"
+                        android:textSize="14sp"
+                        tools:ignore="HardcodedText" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/view_color_c" />
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3.5"
+                            android:gravity="center"
+                            android:text="制         水"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_weight="2"
+                            android:gravity="center" />
+
+                        <Button
+                            android:id="@+id/btn_zs"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="2"
+                            android:background="@drawable/btn_bg_round_click"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:text="停止"
+                            android:textColor="@color/black" />
+
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3.5"
+                            android:gravity="center"
+                            android:text="消        毒"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_weight="2"
+                            android:gravity="center" />
+
+                        <Button
+                            android:id="@+id/btn_xd"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="2"
+                            android:background="@drawable/btn_bg_round_click"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:text="停止"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3.5"
+                            android:gravity="center"
+                            android:text="消毒暂停"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_weight="2"
+                            android:gravity="center" />
+
+                        <Button
+                            android:id="@+id/btn_xdzt"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="2"
+                            android:background="@drawable/btn_bg_round_click"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:text="停止"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3.5"
+                            android:gravity="center"
+                            android:text="冲         洗"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_weight="2"
+                            android:gravity="center" />
+
+                        <Button
+                            android:id="@+id/btn_cx"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="2"
+                            android:background="@drawable/btn_bg_round_click"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:text="停止"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3.5"
+                            android:gravity="center"
+                            android:text="反         冲"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_weight="2"
+                            android:gravity="center" />
+
+                        <Button
+                            android:id="@+id/btn_fc"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="2"
+                            android:background="@drawable/btn_bg_round_click"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:text="停止"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3.5"
+                            android:gravity="center"
+                            android:text="夜间冲洗"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_weight="2"
+                            android:gravity="center" />
+
+                        <Button
+                            android:id="@+id/btn_yjcx"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="2"
+                            android:background="@drawable/btn_bg_round_click"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:text="停止"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3.5"
+                            android:gravity="center"
+                            android:text="急停状态"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_weight="2"
+                            android:gravity="center" />
+
+                        <Button
+                            android:id="@+id/btn_jtzt"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="2"
+                            android:background="@drawable/btn_bg_round_click"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:text="停止"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center" />
+                    </LinearLayout>
+
+                    <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="40dp"-->
+                    <!--android:orientation="horizontal">-->
+
+                    <!--<TextView-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="26dp"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:layout_weight="3.5"-->
+                    <!--android:gravity="center"-->
+                    <!--android:text="空         闲"-->
+                    <!--android:textColor="@color/text_color_6"-->
+                    <!--android:textSize="14sp" />-->
+
+                    <!--<TextView-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="26dp"-->
+                    <!--android:layout_weight="2"-->
+                    <!--android:gravity="center" />-->
+
+                    <!--<Button-->
+                    <!--android:id="@+id/btn_kx"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="30dp"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:layout_weight="2"-->
+                    <!--android:background="@drawable/btn_bg_round_click"-->
+                    <!--android:clickable="true"-->
+                    <!--android:onClick="onClick"-->
+                    <!--android:text="停止"-->
+                    <!--android:textColor="@color/black" />-->
+
+                    <!--<TextView-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="26dp"-->
+                    <!--android:layout_weight="0.5"-->
+                    <!--android:gravity="center" />-->
+                    <!--</LinearLayout>-->
+                </LinearLayout>
+            </LinearLayout>
+            <!--gcc_3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333-->
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_color_c" />
+
+            <!--//gcc_44444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444 -->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_weight="4"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="设备工作模式"
+                        android:textColor="@color/text_color_6"
+                        android:textSize="14sp"
+                        tools:ignore="HardcodedText" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="显示及控制"
+                        android:textColor="@color/text_color_6"
+                        android:textSize="14sp"
+                        tools:ignore="HardcodedText" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/view_color_c" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3.5"
+                            android:gravity="center"
+                            android:text="一级反渗"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_weight="2"
+                            android:gravity="center" />
+
+                        <Button
+                            android:id="@+id/btn_yjfs"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="2"
+                            android:background="@drawable/btn_bg_round_click"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:text="停止"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3.5"
+                            android:gravity="center"
+                            android:text="二级反渗"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_weight="2"
+                            android:gravity="center" />
+
+                        <Button
+                            android:id="@+id/btn_ejfs"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="2"
+                            android:background="@drawable/btn_bg_round_click"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:text="停止"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3.5"
+                            android:gravity="center"
+                            android:text="双级反渗"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_weight="2"
+                            android:gravity="center" />
+
+                        <Button
+                            android:id="@+id/btn_sjfs"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="2"
+                            android:background="@drawable/btn_bg_round_click"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:text="停止"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <!--//gcc_4444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444-->
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_color_c" />
+
+            <!--//gcc_5555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555-->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:text="实时数据显示及控制"
+                    android:textColor="@color/text_color_6"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_color_c" />
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="40dp"
+                        android:gravity="center"
+                        android:text="电导率
+                        (µS/cm)"
+                        android:textColor="@color/text_color_6"
+                        android:textSize="14sp"
+                        tools:ignore="HardcodedText" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="54dp"
+                        android:background="@color/view_color_c" />
+
+                    <TextView
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="30dp"
+                        android:gravity="center"
+                        android:text="流量
+                        (L/min)"
+                        android:textColor="@color/text_color_6"
+                        android:textSize="14sp"
+                        tools:ignore="HardcodedText" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/view_color_c" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:text="原         水"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+
+                        <EditText
+                            android:id="@+id/et_ysdd"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3"
+                            android:background="@null"
+                            android:digits="0123456789"
+                            android:gravity="center"
+                            android:imeOptions="actionNone"
+                            android:inputType="number"
+                            android:singleLine="true"
+                            android:text="999"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="16dp" />
+
+                        <Button
+                            android:id="@+id/btn_ysdd"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="2"
+                            android:background="@drawable/btn_bg_round_click"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:text="保存"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:text="一级浓水"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+
+                        <EditText
+                            android:id="@+id/et_yjnsdd"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3"
+                            android:background="@null"
+                            android:digits="0123456789"
+                            android:gravity="center"
+                            android:imeOptions="actionGo"
+                            android:inputType="number"
+                            android:singleLine="true"
+                            android:text="999"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="16dp" />
+
+                        <Button
+                            android:id="@+id/btn_yjnsdd"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="2"
+                            android:background="@drawable/btn_bg_round_click"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:text="保存"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:text="一级纯水"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+
+                        <EditText
+                            android:id="@+id/et_yjcsdd"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3"
+                            android:background="@null"
+                            android:digits="0123456789"
+                            android:gravity="center"
+                            android:imeOptions="actionSend"
+                            android:inputType="number"
+                            android:singleLine="true"
+                            android:text="999"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="16dp" />
+
+                        <Button
+                            android:id="@+id/btn_yjcsdd"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="2"
+                            android:background="@drawable/btn_bg_round_click"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:text="保存"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:text="二级纯水"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+
+                        <EditText
+                            android:id="@+id/et_ejcsdd"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3"
+                            android:background="@null"
+                            android:digits="0123456789"
+                            android:gravity="center"
+                            android:imeOptions="normal"
+                            android:inputType="number"
+                            android:singleLine="true"
+                            android:text="999"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="16dp" />
+
+                        <Button
+                            android:id="@+id/btn_ejcsdd"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="2"
+                            android:background="@drawable/btn_bg_round_click"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:text="保存"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dip"
+                        android:background="@color/view_color_c" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:text="一级纯水"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+
+                        <EditText
+                            android:id="@+id/et_yjcsll"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3"
+                            android:background="@null"
+                            android:digits="0123456789"
+                            android:gravity="center"
+                            android:imeOptions="actionDone"
+                            android:inputType="number"
+                            android:singleLine="true"
+                            android:text="999"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="16dp" />
+
+                        <Button
+                            android:id="@+id/btn_yjcsll"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="2"
+                            android:background="@drawable/btn_bg_round_click"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:text="保存"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:text="二级纯水"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+
+                        <EditText
+                            android:id="@+id/et_ejcsll"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3"
+                            android:background="@null"
+                            android:digits="0123456789"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:singleLine="true"
+                            android:text="999"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="16dp" />
+
+                        <Button
+                            android:id="@+id/btn_ejcsll"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="2"
+                            android:background="@drawable/btn_bg_round_click"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:text="保存"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:text="一级废水"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+
+                        <EditText
+                            android:id="@+id/et_yjfsll"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3"
+                            android:background="@null"
+                            android:digits="0123456789"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:singleLine="true"
+                            android:text="999"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="16dp" />
+
+                        <Button
+                            android:id="@+id/btn_yjfsll"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="2"
+                            android:background="@drawable/btn_bg_round_click"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:text="保存"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <!--//gcc_55555555555555555555555555555555555555555555555555555555555555555555555555555555555-->
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_color_c" />
+
+            <!--//gcc_66666666666666666666666666666666666666666666666666666666666666666666666666666 -->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="夜间模式"
+                        android:textColor="@color/text_color_6"
+                        android:textSize="14sp"
+                        tools:ignore="HardcodedText" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/view_color_c" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:text="夜间模式"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_weight="3"
+                            android:gravity="center" />
+
+                        <Button
+                            android:id="@+id/btn_yjms"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="2"
+                            android:background="@drawable/btn_bg_round_click"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:text="关闭"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/view_color_c" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:text="间隔时间"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+
+                        <EditText
+                            android:id="@+id/et_yjjg"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3"
+                            android:background="@null"
+                            android:digits="0123456789"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:singleLine="true"
+                            android:text="999"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="16dp" />
+
+
+                        <Button
+                            android:id="@+id/btn_yjjg"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="2"
+                            android:background="@drawable/btn_bg_round_click"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:text="保存"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:text="冲洗时间"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+
+                        <EditText
+                            android:id="@+id/et_yjsz"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3"
+                            android:background="@null"
+                            android:digits="0123456789"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:singleLine="true"
+                            android:text="999"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="16dp" />
+
+                        <Button
+                            android:id="@+id/btn_yjsz"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="2"
+                            android:background="@drawable/btn_bg_round_click"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:text="保存"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <!--//66666666666666666666666666666666666666666666666666666666666666666-->
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_color_c" />
+
+            <!--//gcc_7777777777777777777777777777777777777777777777777777777777777 -->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="20dp"
+
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="消毒模式"
+                        android:textColor="@color/text_color_6"
+                        android:textSize="14sp"
+                        tools:ignore="HardcodedText" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/view_color_c" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:text="循环时间"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+
+                        <EditText
+                            android:id="@+id/et_xdxh"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3"
+                            android:background="@null"
+                            android:digits="0123456789"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:singleLine="true"
+                            android:text="999"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="16dp" />
+
+                        <Button
+                            android:id="@+id/btn_xdxh"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="2"
+                            android:background="@drawable/btn_bg_round_click"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:text="保存"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:text="浸泡时间"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+
+                        <EditText
+                            android:id="@+id/et_xdjp"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3"
+                            android:background="@null"
+                            android:digits="0123456789"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:singleLine="true"
+                            android:text="999"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="16dp" />
+
+                        <Button
+                            android:id="@+id/btn_xdjp"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="2"
+                            android:background="@drawable/btn_bg_round_click"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:text="保存"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:text="冲洗时间"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp" />
+
+                        <EditText
+                            android:id="@+id/et_xdcx"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="3"
+                            android:background="@null"
+                            android:digits="0123456789"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:singleLine="true"
+                            android:text="999"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="16dp" />
+
+                        <Button
+                            android:id="@+id/btn_xdcx"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="2"
+                            android:background="@drawable/btn_bg_round_click"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:text="保存"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="26dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/view_color_c" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

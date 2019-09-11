@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/root_layout"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+    <include layout="@layout/theme_title" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dip"
+                    android:background="@color/black"/>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="50.0dip"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="3.0"
+                        android:gravity="center"
+                        android:text="种类"
+                        android:textColor="@color/text_color_6"
+                        android:textSize="16dp"/>
+                    <View
+                        android:layout_width="0.5dip"
+                        android:layout_height="fill_parent"
+                        android:background="@color/black"/>
+
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="4.0"
+                        android:gravity="center"
+                        android:text="已使用时间(小时)"
+                        android:textColor="@color/text_color_6"
+                        android:textSize="16dp"/>
+                    <View
+                        android:layout_width="0.5dip"
+                        android:layout_height="fill_parent"
+                        android:background="@color/black"/>
+
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="4.0"
+                        android:gravity="center"
+                        android:text="更换周期(小时)"
+                        android:textColor="@color/text_color_6"
+                        android:textSize="16dp"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dip"
+                    android:background="@color/black"/>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="50.0dip"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="3.0"
+                        android:gravity="center"
+                        android:text="炭"
+                        android:textColor="@color/text_color_6"
+                        android:textSize="16dp"/>
+                    <View
+                        android:layout_width="0.5dip"
+                        android:layout_height="fill_parent"
+                        android:background="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/tv_tan"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="4.0"
+                        android:gravity="center"
+                        android:text="100"
+                        android:textColor="@color/text_color_6"
+                        android:textSize="16dp"/>
+                    <View
+                        android:layout_width="0.5dip"
+                        android:layout_height="fill_parent"
+                        android:background="@color/black"/>
+
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="4.0"
+                        android:gravity="center"
+                        android:text="8760"
+                        android:textColor="@color/text_color_6"
+                        android:textSize="16dp"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dip"
+                    android:background="@color/black"/>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="50.0dip"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="3.0"
+                        android:gravity="center"
+                        android:text="砂"
+                        android:textColor="@color/text_color_6"
+                        android:textSize="16dp"/>
+                    <View
+                        android:layout_width="0.5dip"
+                        android:layout_height="fill_parent"
+                        android:background="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/tv_sha"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="4.0"
+                        android:gravity="center"
+                        android:text="100"
+                        android:textColor="@color/text_color_6"
+                        android:textSize="16dp"/>
+                    <View
+                        android:layout_width="0.5dip"
+                        android:layout_height="fill_parent"
+                        android:background="@color/black"/>
+
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="4.0"
+                        android:gravity="center"
+                        android:text="8760"
+                        android:textColor="@color/text_color_6"
+                        android:textSize="16dp"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dip"
+                    android:background="@color/black"/>
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="50.0dip"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="3.0"
+                        android:gravity="center"
+                        android:text="树脂"
+                        android:textColor="@color/text_color_6"
+                        android:textSize="16dp"/>
+                    <View
+                        android:layout_width="0.5dip"
+                        android:layout_height="fill_parent"
+                        android:background="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/tv_shuzhi"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="4.0"
+                        android:gravity="center"
+                        android:text="100"
+                        android:textColor="@color/text_color_6"
+                        android:textSize="16dp"/>
+                    <View
+                        android:layout_width="0.5dip"
+                        android:layout_height="fill_parent"
+                        android:background="@color/black"/>
+
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="4.0"
+                        android:gravity="center"
+                        android:text="8760"
+                        android:textColor="@color/text_color_6"
+                        android:textSize="16dp"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dip"
+                    android:background="@color/black"/>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="50.0dip"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="3.0"
+                        android:gravity="center"
+                        android:text="反渗透膜"
+                        android:textColor="@color/text_color_6"
+                        android:textSize="16dp"/>
+                    <View
+                        android:layout_width="0.5dip"
+                        android:layout_height="fill_parent"
+                        android:background="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/tv_fstm"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="4.0"
+                        android:gravity="center"
+                        android:text="100"
+                        android:textColor="@color/text_color_6"
+                        android:textSize="16dp"/>
+                    <View
+                        android:layout_width="0.5dip"
+                        android:layout_height="fill_parent"
+                        android:background="@color/black"/>
+
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="4.0"
+                        android:gravity="center"
+                        android:text="8760"
+                        android:textColor="@color/text_color_6"
+                        android:textSize="16dp"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dip"
+                    android:background="@color/black"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

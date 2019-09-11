@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <com.wls.dmr.widget.CircleProgress
+        android:id="@+id/circleProgress"
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+        custom:currProgress="0"
+        custom:progressInitialPosition="270"
+        custom:progressWidth="2dp"
+        custom:maxProgress="360"
+        android:layout_centerInParent="true"
+        custom:foreEndColor="#E95A74"
+        custom:foreStartColor="#BA5AD2"
+        android:padding="30dp"
+        custom:useAnimation="true"
+        />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设备未连接"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:paddingBottom="15dp"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/tv_percent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设备ID"
+        android:layout_below="@id/tv_content"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:paddingBottom="10dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

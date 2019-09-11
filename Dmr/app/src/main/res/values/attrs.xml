@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ProgressWheel">
+        <attr name="matProg_progressIndeterminate" format="boolean" />
+        <attr name="matProg_barColor" format="color" />
+        <attr name="matProg_rimColor" format="color" />
+        <attr name="matProg_rimWidth" format="dimension" />
+        <attr name="matProg_spinSpeed" format="float" />
+        <attr name="matProg_barSpinCycleTime" format="integer" />
+        <attr name="matProg_circleRadius" format="dimension" />
+        <attr name="matProg_fillRadius" format="boolean" />
+        <attr name="matProg_barWidth" format="dimension" />
+        <attr name="matProg_linearProgress" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="CircleProgress">
+        <!-- 进度条的背景色-->
+        <attr name="bgColor" format="color" />
+        <!-- 进度条的前景色 起始颜色-->
+        <attr name="foreStartColor" format="color" />
+        <!-- 进度条的前景色 结束颜色-->
+        <attr name="foreEndColor" format="color" />
+        <!-- 进度条的大小-->
+        <attr name="progressWidth" format="dimension" />
+        <!-- 最大进度-->
+        <attr name="maxProgress" format="integer" />
+        <!-- 现在的进度-->
+        <attr name="currProgress" format="integer" />
+        <!-- 进度条的起始位置-->
+        <attr name="progressInitialPosition" format="integer" />
+        <!-- 是否使用动画-->
+        <attr name="useAnimation" format="boolean" />
+        <!-- 使用渐变-->
+        <attr name="useGradient" format="boolean" />
+        <!-- 边角是否是圆的-->
+        <attr name="isCircleCorner" format="boolean" />
+        <!-- 是否是实心的-->
+        <attr name="isSolid" format="boolean" />
+
+    </declare-styleable>
+    <declare-styleable name="TextCircleProgress">
+        <!-- 主标题颜色-->
+        <attr name="headColor" format="color" />
+        <!-- 副标题颜色-->
+        <attr name="subHeadColor" format="color" />
+        <!-- 主标题字体大小-->
+        <attr name="headSize" format="dimension" />
+        <!-- 副标题字体大小-->
+        <attr name="subHeadSize" format="dimension" />
+    </declare-styleable>
+    <attr name="position">
+        <enum name="left_top" value="0"/>
+        <enum name="left_bottom" value="1"/>
+        <enum name="right_top" value="2"/>
+        <enum name="right_bottom" value="3"/>
+    </attr>
+    <attr name="radius" format="dimension"/>
+    <declare-styleable name="ArcMenu">
+        <attr name="position"/>
+        <attr name="radius"/>
+    </declare-styleable>
+</resources>

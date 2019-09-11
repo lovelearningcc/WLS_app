@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="line_quray">#05706F</color>
+
+    <!-- 威力生医疗设备 -->
+    <color name="colorPrimary">#2a96c5</color>
+    <color name="colorPrimaryDark">#2a96c5</color>
+    <color name="colorAccent">#2a96c5</color>
+    <color name="colorAccent1">#FF4081</color>
+    <color name="gcc1">#00b1ef</color>
+    <color name="cpl">#7CFC00</color>
+    <color name="cx">#00BFFF</color>
+    <color name="yt">#348DF3</color>
+    <color name="bg_eb">#EBEBEB</color>
+
+    <color name="red">#FF0000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="pink">#FF6100</color>
+    <color name="black">#ff000000</color>
+    <!--drawable-->
+    <color name="transparent">@android:color/transparent</color>
+    <!--Bottom-->
+    <color name="bottom_text_color1">#9F9F9F</color>
+
+    <!--MainActivity-->
+    <!--HomeFragment-->
+    <!--VisitShop-->
+
+    <!-- LoginActivity2-->
+    <!-- RegistActivity-->
+
+    <!--BaseActivity-->
+
+    <!--TaskActivity-->
+    <color name="text_color_6">#666666</color>
+    <color name="text_color_8">#dbdedc</color>
+    <color name="text_color_9">#cdcdcd</color>
+    <color name="text_color_c">#CCCCCC</color>
+
+    <color name="alertdialog_line">#c6c6c6</color>
+
+    <color name="view_color_c">#cdcdcd</color>
+
+    <color name="background">#FFFFFF</color>
+    <color name="split_line">#11112233</color>
+    <color name="text1">#59B29C</color>
+    <color name="text2">#333333</color>
+    <color name="color2">#FFFFFF</color>
+    <color name="color4">#666666</color>
+    <color name="color5">#57C5E8</color>
+
+    <color name="maincolor02">#ffb1bed4</color>
+
+    <color name="line">#dddddd</color>
+    <color name="text_10">#333333</color>
+    <color name="text_11">#999999</color>
+
+    <!--<selector xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+        <!--<item android:state_pressed="true" android:state_selected="true" android:color="@color/colorAccent"/>-->
+        <!--<item android:state_pressed="true" android:state_selected="false" android:color="@color/colorAccent"/>-->
+        <!--<item android:state_pressed="false" android:state_selected="true" android:color="@color/colorAccent"/>-->
+        <!--<item android:state_pressed="false" android:state_selected="false" android:color="@color/bottom_text_color"/>-->
+
+    <!--</selector>-->
+
+</resources>
+
+
